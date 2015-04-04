@@ -1,0 +1,5 @@
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Domain\bin\Debug\TagMyCoins.Domain.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Domain\bin\Debug\TagMyCoins.Domain.pdb
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Domain\obj\Debug\TagMyCoins.Domain.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Domain\obj\Debug\TagMyCoins.Domain.pdb
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Domain\obj\Debug\TagMyCoins.Domain.csprojResolveAssemblyReference.cache

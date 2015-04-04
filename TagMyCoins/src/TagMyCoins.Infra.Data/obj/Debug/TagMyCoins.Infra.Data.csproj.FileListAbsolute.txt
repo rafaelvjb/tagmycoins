@@ -1,0 +1,12 @@
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\TagMyCoins.Infra.Data.dll.config
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\TagMyCoins.Infra.Data.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\TagMyCoins.Infra.Data.pdb
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\TagMyCoins.Domain.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\TagMyCoins.Domain.pdb
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\obj\Debug\TagMyCoins.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\obj\Debug\TagMyCoins.Infra.Data.dll
+C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.Data\obj\Debug\TagMyCoins.Infra.Data.pdb
