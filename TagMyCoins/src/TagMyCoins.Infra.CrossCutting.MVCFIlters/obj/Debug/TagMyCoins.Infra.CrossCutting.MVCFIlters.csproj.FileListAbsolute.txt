@@ -3,3 +3,7 @@ C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIl
 C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\obj\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.csprojResolveAssemblyReference.cache
 C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\obj\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.dll
 C:\Source\TFS\rafaelvjb\Main\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\obj\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.pdb
+C:\Source\GIT\tagmycoins\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\bin\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.dll
+C:\Source\GIT\tagmycoins\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\bin\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.pdb
+C:\Source\GIT\tagmycoins\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\obj\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.dll
+C:\Source\GIT\tagmycoins\TagMyCoins\src\TagMyCoins.Infra.CrossCutting.MVCFIlters\obj\Debug\TagMyCoins.Infra.CrossCutting.MVCFIlters.pdb

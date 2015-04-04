@@ -27,6 +27,20 @@ namespace TagMyCoins.Infra.Data.EntityConfig
             Property(e => e.UserId)
                 .IsRequired();
 
+            //HasMany(e => e.Entries)
+            //    .WithMany(t => t.Tags)
+            //    .Map(et =>
+            //    {
+            //        et.MapLeftKey("EntryId");
+            //        et.MapRightKey("TagId");
+            //        et.ToTable("EntryTag");
+            //    });
+
+            //HasOptional(t => t.Entries)
+            //    .WithMany( )
+            //    .HasForeignKey(t => t.TagId)
+            //    .WillCascadeOnDelete(false);
+
             ToTable("Tags");
         }
     }

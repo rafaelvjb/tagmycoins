@@ -21,18 +21,18 @@ namespace TagMyCoins.Infra.CrossCutting.Identity.Migrations
                             new UserStore<ApplicationUser>(
                                 new IdentityContext()));
 
-            for (var i = 0; i < 10; i++)
-            {
-                var user = new ApplicationUser()
-                {
-                    UserName = string.Format("User{0}", i.ToString()),
-                    FullName = string.Format("Full Name User{0}", i.ToString()),
-                    BirthDate = DateTime.Now,
-                    Email = string.Format("email{0}@email.com", i.ToString()),
-                    Gender = "Male"
-                };
-                manager.Create(user, string.Format("Password{0}", i.ToString()));
-            }
+            //for (var i = 0; i < 10; i++)
+            //{
+            //    var user = new ApplicationUser()
+            //    {
+            //        UserName = string.Format("User{0}", i.ToString()),
+            //        FullName = string.Format("Full Name User{0}", i.ToString()),
+            //        BirthDate = DateTime.Now,
+            //        Email = string.Format("email{0}@email.com", i.ToString()),
+            //        Gender = "Male"
+            //    };
+            //    manager.Create(user, string.Format("Password{0}", i.ToString()));
+            //}
         }
     }
 }

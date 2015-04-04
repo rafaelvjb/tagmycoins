@@ -9,6 +9,11 @@ namespace TagMyCoins.Domain.Entities
 {
     public class User: BaseEntity
     {
+        public User()
+        {
+            UserId = Guid.NewGuid();
+        }
+
         public Guid UserId { get; set; }
 
         public string Name { get; set; }

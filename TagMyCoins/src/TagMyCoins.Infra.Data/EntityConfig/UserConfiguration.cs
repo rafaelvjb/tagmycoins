@@ -8,17 +8,20 @@ using TagMyCoins.Domain.Entities;
 
 namespace TagMyCoins.Infra.Data.EntityConfig
 {
-    public class UserConfiguration: EntityTypeConfiguration<User>
+    public class UserConfiguration : EntityTypeConfiguration<User>
     {
         public UserConfiguration()
         {
             HasKey(u => u.UserId);
 
-            HasMany(u => u.Entries)
-                .WithOptional();
+            //HasMany(u => u.Entries)
+            //    .WithOptional()
+            //    .WillCascadeOnDelete(false);
 
-            HasMany(u => u.Tags)
-                .WithOptional();
+            //HasRequired(u => u.Tags)
+            //    .WithMany()
+            //    .WillCascadeOnDelete(false)
+            //    ;
 
             ToTable("Users");
         }

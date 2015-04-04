@@ -31,10 +31,17 @@ namespace TagMyCoins.Infra.Data.EntityConfig
                 .WithMany(t => t.Entries)
                 .Map(et =>
                 {
-                    et.MapLeftKey("EntryId");
-                    et.MapRightKey("TagId");
+                    et.MapLeftKey("TagId");
+                    et.MapRightKey("EntryId");
                     et.ToTable("EntryTag");
                 });
+
+
+            //HasOptional(e => e.Tags)
+            //    .WithMany()
+            //    .HasForeignKey(t => t.EntryId)
+            //    .WillCascadeOnDelete(false);
+                
 
             Property(e => e.UserId)
                 .IsRequired();

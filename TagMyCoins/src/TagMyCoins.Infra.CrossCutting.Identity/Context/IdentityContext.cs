@@ -24,5 +24,24 @@ namespace TagMyCoins.Infra.CrossCutting.Identity.Context
         {
             return new IdentityContext();
         }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<IdentityUser>()
+                .ToTable("AspNetUsers")
+                .Property(p => p.Id)
+                .HasColumnName("UserId");
+
+            modelBuilder.Entity<ApplicationUser>()
+                .ToTable("AspNetUsers")
+                .Property(p => p.Id)
+                .HasColumnName("UserId");
+
+            //modelBuilder.Entity<ApplicationUser>()
+            //    .HasRequired(a => a.User)
+            //    .WithRequiredPrincipal(a => a.UserId);
+        }
     }
 }

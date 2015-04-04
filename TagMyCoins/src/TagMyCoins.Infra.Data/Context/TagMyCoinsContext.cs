@@ -49,6 +49,7 @@ namespace TagMyCoins.Infra.Data.Context
             // ModelConfiguration
             modelBuilder.Configurations.Add(new EntryConfiguration());
             modelBuilder.Configurations.Add(new TagConfiguration());
+            modelBuilder.Configurations.Add(new UserConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

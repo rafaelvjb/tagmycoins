@@ -22,6 +22,9 @@ namespace TagMyCoins.Infra.CrossCutting.Identity
         public string FullName { get; set; }
         public string Gender { get; set; }
         public DateTime BirthDate { get; set; }
+
+        public Guid DomainUserId { get; set; }
+        public User User { get; set; }
         //public virtual ICollection<Entry> Entries { get; set; }
         //public virtual ICollection<Tag> Tags { get; set; }
         

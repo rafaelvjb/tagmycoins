@@ -14,6 +14,7 @@ namespace TagMyCoins.Domain.Entities
         public Entry()
         {
             EntryId = Guid.NewGuid();
+            UserId = Guid.NewGuid();
             Tags = new List<Tag>();
         }
 
